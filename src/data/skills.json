@@ -13,7 +13,7 @@
     },
     {
       "title": "TypeScript",
-      "imageSrc": "skills/css.png"
+      "imageSrc": "skills/typescript.png"
     },
     {
       "title": "React",
@@ -24,7 +24,11 @@
       "imageSrc": "skills/node.png"
     },
     {
+      "title": "postgreSQL",
+      "imageSrc": "skills/postgresSQL.png"
+    },
+    {
       "title": "Prisma",
-      "imageSrc": "skills/css.png"
+      "imageSrc": "skills/prisma.png"
     }
   ]

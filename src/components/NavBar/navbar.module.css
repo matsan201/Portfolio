@@ -4,7 +4,8 @@
     /* align-items: center; */
     justify-content: space-between;
     width: 100%;
-    padding-top: 3rem;
+    padding-top: 2rem;
+    padding-right: 70px;
     z-index: 2;
     /* margin: 0 10%; */
     background: rgb(31, 29, 29);
