@@ -1,44 +1,45 @@
 #home {
-    height: calc(100vh - 4rem);
-    width: 100vw;
-    max-width: 75rem;
-    margin: 0 auto;
-    overflow: hidden;
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .bg {
-    position: absolute;
-    top: -4rem;
-    right: 0;
-    z-index: -1;
-    object-fit: cover;
-    height: 100vh;
+  position: absolute;
+  top: -4rem;
+  right: 0;
+  z-index: -1;
+  object-fit: cover;
+  height: 100vh;
 }
 
 .introContent {
-    height: 100vh;
-    width: 100vh;
-    padding: 2rem;
-    font-size: 3rem;
-    font-weight: 700;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  height: 100vh;
+  /* width: 100vh; */
+  /* padding: 30px; */
+  padding-top: 35px;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hello {
-    font-size: 40px;
-    font-weight: 100;
+  font-size: 40px;
+  font-weight: 100;
 }
 
 .introName {
-    color: yellow;
+  color: yellow;
 }
 
 .introPara {
-    font-size: 1rem;
-    font-weight: 300;
-    letter-spacing: 1px;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 /* .containerBtn {
@@ -48,61 +49,58 @@
 } */
 
 .contactBtn {
-    border: 5em;
-    cursor: pointer;
-    outline: none;
-    font-size: 16px;
-    -webkit-transform: translate(0);
-    transform: translate(0);
-    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
-    padding: 0.7em 2em;
-    border-radius: 65px;
-    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
-    -webkit-transition: box-shadow 0.25s;
-    transition: box-shadow 0.25s;
-    color: white;
-    margin: 0 10px;
-    margin-left: 0;
-    
+  border: 5em;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  -webkit-transform: translate(0);
+  transform: translate(0);
+  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+  padding: 0.7em 2em;
+  border-radius: 65px;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  -webkit-transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  color: white;
+  margin: 0 10px;
+  margin-left: 0;
 }
-  
+
 .contactBtn .text {
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
 }
-  
+
 .contactBtn:after {
-    content: "";
-    border-radius: 18px;
-    position: absolute;
-    margin: 4px;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-    /* background: #0e0e10; */
+  content: '';
+  border-radius: 18px;
+  position: absolute;
+  margin: 4px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  /* background: #0e0e10; */
 }
-  
+
 .contactBtn:hover {
-    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
-    box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+  box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
 }
-  
+
 .contactBtn:hover .text {
-    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
 }
-
-
 
 .btn {
-    background: white;
-    margin: 1rem 0;
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 2rem;
+  background: white;
+  margin: 1rem 0;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 2rem;
 }
 
 /* .btnImg {
@@ -112,38 +110,49 @@
 
 } */
 
+@media screen and (min-width: 1px) {
+  .bg {
+    right: -10vw;
+  }
+  .hello {
+    font-size: 20px;
+  }
+  .introText {
+    font-size: 30px;
+  }
+}
 @media screen and (min-width: 480px) {
-    .bg {
-      right: -10vw;
-    }
-    .hello {
-      font-size: 20px;
-    }
-    .introText {
-      font-size: 40px;
-    }
+  .bg {
+    right: -10vw;
   }
-  
-  @media screen and (min-width: 840px) {
-    .bg {
-      right: -10vw;
-    }
-    .introContent {
-      font-size: 5vw;
-    }
-    .hello {
-      font-size: 50px;
-    }
-    .introText {
-      font-size: 60px;
-    }
+  .hello {
+    font-size: 20px;
   }
-  
-  @media screen and (min-width: 1240px) {
-    .hello {
-      font-size: 60px;
-    }
-    .introText {
-      font-size: 80px;
-    }
+  .introText {
+    font-size: 40px;
   }
+}
+
+@media screen and (min-width: 840px) {
+  .bg {
+    right: -10vw;
+  }
+  .introContent {
+    font-size: 5vw;
+  }
+  .hello {
+    font-size: 50px;
+  }
+  .introText {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .hello {
+    font-size: 60px;
+  }
+  .introText {
+    font-size: 60px;
+  }
+}
