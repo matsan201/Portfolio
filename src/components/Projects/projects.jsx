@@ -1,5 +1,5 @@
 
-import styles from "./Projects.module.css";
+import styles from "./projects.module.css";
 
 import projects from "../../data/projects.json";
 import { ProjectCard } from "./projectCard";
