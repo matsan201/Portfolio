@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-import styles from "./ProjectCard.module.css";
+import styles from "./projectCard.module.css";
 import { getImageUrl } from "../../utils";
 
 export const ProjectCard = ({
